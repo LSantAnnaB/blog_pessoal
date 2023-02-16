@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(value = {"/postagens"})
-@CrossOrigin("*")
+@CrossOrigin(value = "*",allowedHeaders = "*")
 public class PostagemContoller {
 
     @Autowired
